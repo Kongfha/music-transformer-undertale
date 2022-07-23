@@ -11,6 +11,7 @@ from random import randint
 import multiprocessing
 import streamlit as st
 import time
+import pandas
 
 
 def generation(model_path,gen_path,temp,tempo):
