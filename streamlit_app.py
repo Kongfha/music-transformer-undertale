@@ -15,7 +15,7 @@ import time
 
 def generation(model_path,gen_path,temp,tempo):
     global finished
-    os.system(f"python /app/music-transformer-undertale/music-transformer/generate.py {model_path} {gen_path} -v -t {temp} -tm {tempo}")
+    os.system(f"python /app/music-transformer-undertale/generate.py {model_path} {gen_path} -v -t {temp} -tm {tempo}")
     finished = True
 
 gen_path = "./gen_audio.mid"
